@@ -39,3 +39,7 @@ terminate. Instead it will intercept the signal, compress everything that has
 been created so far into a file called `attendance_tracker_{name}_archive.tar.gz` 
 and then remove the incomplete folder so your workspace stays clean and nothing 
 is left in a broken state.
+
+## Explanatory video
+
+https://drive.google.com/file/d/1xg3ufQ785CRJVGEuedZyfFFi29X1iaKt/view?usp=sharing
