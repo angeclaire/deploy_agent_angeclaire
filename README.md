@@ -1,12 +1,13 @@
 # deploy_agent_angeclaire
 
 ## What my script does 
-
+```
 gitclone https://github.com/angeclaire/deploy_agent_angeclaire.git
 cd deploy_agent_angeclaire
 chmod +x setup_project.sh
 ./setup_project.sh
- 
+
+```
 ## What my script does
 when you start to run the script, it will prompt you to enter the project name . It will the automatically build the full project directory named "attendance_tracker_{ name }" and place all the necessary files inside their correct folders. During the setup you will be given the choice to either update the attendance thresholds or leave them at their default values which are 75% for warning and 50% for failure. Simply type `yes` to enter your own values or `no` to keep the defaults. Before running the script ensure that all the required files which are "attendance_checker.py", "assets.csv", "config.json", "reports.log"" and "setup_project.sh" are all located in the same folder.
 
