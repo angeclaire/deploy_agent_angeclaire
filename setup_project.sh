@@ -25,10 +25,10 @@ mkdir -p "${PROJECT_DIR}/Helpers"
 mkdir -p "${PROJECT_DIR}/reports"
 # STEP 5: Copy source files into correct locations
 
-cp attendance_checker.py "${PROJECT_DIR}/attendance_checker.py"
-cp assets.csv "${PROJECT_DIR}/Helpers/assets.csv"
-cp config.json "${PROJECT_DIR}/Helpers/config.json"
-cp reports.log "${PROJECT_DIR}/reports/reports.log"
+cp ./project_files/attendance_checker.py "${PROJECT_DIR}"
+cp ./project_files/assets.csv "${PROJECT_DIR}/Helpers"
+cp ./project_files/config.json "${PROJECT_DIR}/Helpers"
+cp ./project_files/reports.log "${PROJECT_DIR}/reports"
 
 echo "Do you want to update attendance thresholds? (yes/no)"
 read ANSWER
