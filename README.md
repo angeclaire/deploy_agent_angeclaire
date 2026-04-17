@@ -1,4 +1,4 @@
-#deploy_agent_angeclaire
+# deploy_agent_angeclaire
 
 ## What my script does 
 
@@ -13,6 +13,7 @@ when you start to run the script, it will prompt you to enter the project name .
 Once the setup is complete the script will verify whether `python3` is available on your machine and confirm that all files have been placed in their correct locations.
 ## Project structure it creates
 
+```
 attendance_tracker_{name}/
 ├── attendance_checker.py
 ├── Helpers/
@@ -20,6 +21,7 @@ attendance_tracker_{name}/
 │   └── config.json
 └── reports/
     └── reports.log
+```
 
 ## How to trigger the archive (Ctrl+C)
 
